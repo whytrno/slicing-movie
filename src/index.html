@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body class="bg-[#141414] space-y-36">
+
+    <div>
+
+        <!-- HEADER SECTION -->
+        <header
+            class="text-[#ccc7c3] h-24 relative z-10 content-center flex flex-nowrap justify-around backdrop-blur-xl">
+            <div class="my-auto">
+                <img class="h-10" src="../assets/logo.png" alt="Logo">
+            </div>
+            <div class="my-auto">
+                <ul class="font-bold flex flex-nowrap space-x-10">
+                    <li>Home</li>
+                    <li>Features</li>
+                    <li>Pages</li>
+                    <li>Blog</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+            <div class="my-auto flex flex-nowrap space-x-4">
+                <div class="p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="bg-[#191919] rounded-full p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 bg-black rounded-full" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <!-- HERO SECTION -->
+        <div class="h-[90vh]">
+            <div class="absolute top-0">
+                <img src="../assets/sanddust2.jpg" class="h-screen w-screen object-cover" alt="Hero">
+            </div>
+            <div class="absolute grid grid-cols-2 px-32 content-center top-0 bg-gradient-to-r from-[#19120a] h-screen">
+                <div>
+                    <div class="text-[#bdbdbd] space-y-5">
+                        <div class="border-l-4 border-[#e50913] whitespace-nowrap">
+                            <img class="h-12 bg-gradient-to-r from-[#632220] py-2 pl-3 pr-20" src="../assets/logo.png"
+                                alt="Logo">
+                        </div>
+                        <h1 class="text-8xl font-extrabold">SAND DUST</h1>
+                        <div class="flex flex-nowrap space-x-5 font-semibold">
+                            <ul class="flex flex-nowrap my-auto">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-[#e50913]"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-[#e50913]"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-[#e50913]"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-[#e50913]"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-[#e50913]"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </li>
+                            </ul>
+                            <span class="my-auto">4.7(Imdb)</span>
+                            <span class="my-auto py-1 px-2 font-bold text-white bg-[#6b757f]">GP</span>
+                            <span class="my-auto">2hr : 22mins</span>
+                        </div>
+                        <p class="font-semibold">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                            isn't
+                            anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                            Internet tend to repeat predefined chunks as necessary, making this the first true generator
+                            on
+                            the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model
+                            sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem
+                            Ipsum
+                            is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                        </p>
+                        <div class="text-lg font-bold">
+                            <p>
+                                <span class="text-[#cb151c]">Starring</span>
+                                Karen Gilchrist, James Earl Jones
+                            </p>
+                            <p>
+                                <span class="text-[#cb151c]">Genres</span>
+                                Action
+                            </p>
+                            <p>
+                                <span class="text-[#cb151c]">Tags</span>
+                                Action, Drama, Thriller
+                            </p>
+                        </div>
+                        <button
+                            class="py-3 px-10 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                            </svg> -->
+                            PLAY NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="self-center justify-self-center">
+                    <a href="" class="space-x-4 flex flex-nowrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 stroke-[#dad3d0] stroke-1" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <h1 class="text-[#dad3d0] text-2xl tracking-widest my-auto">WATCH TRAILER</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MOVIES SECTION -->
+    <div class="mx-32 space-y-32  text-white">
+        <!-- UPCOMING MOVIES -->
+        <div class="space-y-5">
+            <div class="flex justify-between items-end">
+                <h1 class="text-3xl">Upcoming Movies</h1>
+                <a href="#" class="font-semibold text-[#e50913] text-xl">View all</a>
+            </div>
+            <div class="grid grid-cols-4 gap-6">
+                <div
+                    class="relative group h-60 transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110">
+                    <div class="">
+                        <img class="absolute top-0 h-60 object-cover -z-10" src="../assets/boss.jpg" alt="">
+                    </div>
+                    <div
+                        class="group-hover:backdrop-brightness-50 group-hover:border-l-8 group-hover:border-[#e50913] duration-500 px-5 h-full grid grid-cols-3 content-center bg-gradient-to-r from-black">
+                        <div class="space-y-3 col-span-2 my-auto">
+                            <h4 class="text-xl">My Office Boss</h4>
+                            <p class="font-light">2hr : 38mins</p>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                        <div class="invisible group-hover:visible duration-300 col-span-1 space-y-2 justify-self-end">
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="relative group h-60 transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110">
+                    <div class="">
+                        <img class="absolute top-0 h-60 object-cover -z-10" src="../assets/boss.jpg" alt="">
+                    </div>
+                    <div
+                        class="group-hover:backdrop-brightness-50 group-hover:border-l-8 group-hover:border-[#e50913] duration-500 px-5 h-full grid grid-cols-3 content-center bg-gradient-to-r from-black">
+                        <div class="space-y-3 col-span-2 my-auto">
+                            <h4 class="text-xl">My Office Boss</h4>
+                            <p class="font-light">2hr : 38mins</p>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                        <div class="invisible group-hover:visible duration-300 col-span-1 space-y-2 justify-self-end">
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="relative group h-60 transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110">
+                    <div class="">
+                        <img class="absolute top-0 h-60 object-cover -z-10" src="../assets/boss.jpg" alt="">
+                    </div>
+                    <div
+                        class="group-hover:backdrop-brightness-50 group-hover:border-l-8 group-hover:border-[#e50913] duration-500 px-5 h-full grid grid-cols-3 content-center bg-gradient-to-r from-black">
+                        <div class="space-y-3 col-span-2 my-auto">
+                            <h4 class="text-xl">My Office Boss</h4>
+                            <p class="font-light">2hr : 38mins</p>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                        <div class="invisible group-hover:visible duration-300 col-span-1 space-y-2 justify-self-end">
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="relative group h-60 transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110">
+                    <div class="">
+                        <img class="absolute top-0 h-60 object-cover -z-10" src="../assets/boss.jpg" alt="">
+                    </div>
+                    <div
+                        class="group-hover:backdrop-brightness-50 group-hover:border-l-8 group-hover:border-[#e50913] duration-500 px-5 h-full grid grid-cols-3 content-center bg-gradient-to-r from-black">
+                        <div class="space-y-3 col-span-2 my-auto">
+                            <h4 class="text-xl">My Office Boss</h4>
+                            <p class="font-light">2hr : 38mins</p>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                        <div class="invisible group-hover:visible duration-300 col-span-1 space-y-2 justify-self-end">
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LATEST MOVIES -->
+        <div class="space-y-5">
+            <div class="flex justify-between items-end">
+                <h1 class="text-3xl">Latest Movies</h1>
+                <a href="#" class="font-semibold text-[#e50913] text-xl">View all</a>
+            </div>
+            <div class="grid grid-cols-4 gap-6">
+                <div
+                    class="relative group h-60 transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110">
+                    <div class="">
+                        <img class="absolute top-0 h-60 object-cover -z-10" src="../assets/boss.jpg" alt="">
+                    </div>
+                    <div
+                        class="group-hover:backdrop-brightness-50 group-hover:border-l-8 group-hover:border-[#e50913] duration-500 px-5 h-full grid grid-cols-3 content-center bg-gradient-to-r from-black">
+                        <div class="space-y-3 col-span-2 my-auto">
+                            <h4 class="text-xl">My Office Boss</h4>
+                            <p class="font-light">2hr : 38mins</p>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                        <div class="invisible group-hover:visible duration-300 col-span-1 space-y-2 justify-self-end">
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="relative group h-60 transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110">
+                    <div class="">
+                        <img class="absolute top-0 h-60 object-cover -z-10" src="../assets/boss.jpg" alt="">
+                    </div>
+                    <div
+                        class="group-hover:backdrop-brightness-50 group-hover:border-l-8 group-hover:border-[#e50913] duration-500 px-5 h-full grid grid-cols-3 content-center bg-gradient-to-r from-black">
+                        <div class="space-y-3 col-span-2 my-auto">
+                            <h4 class="text-xl">My Office Boss</h4>
+                            <p class="font-light">2hr : 38mins</p>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                        <div class="invisible group-hover:visible duration-300 col-span-1 space-y-2 justify-self-end">
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="relative group h-60 transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110">
+                    <div class="">
+                        <img class="absolute top-0 h-60 object-cover -z-10" src="../assets/boss.jpg" alt="">
+                    </div>
+                    <div
+                        class="group-hover:backdrop-brightness-50 group-hover:border-l-8 group-hover:border-[#e50913] duration-500 px-5 h-full grid grid-cols-3 content-center bg-gradient-to-r from-black">
+                        <div class="space-y-3 col-span-2 my-auto">
+                            <h4 class="text-xl">My Office Boss</h4>
+                            <p class="font-light">2hr : 38mins</p>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                        <div class="invisible group-hover:visible duration-300 col-span-1 space-y-2 justify-self-end">
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="relative group h-60 transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-110">
+                    <div class="">
+                        <img class="absolute top-0 h-60 object-cover -z-10" src="../assets/boss.jpg" alt="">
+                    </div>
+                    <div
+                        class="group-hover:backdrop-brightness-50 group-hover:border-l-8 group-hover:border-[#e50913] duration-500 px-5 h-full grid grid-cols-3 content-center bg-gradient-to-r from-black">
+                        <div class="space-y-3 col-span-2 my-auto">
+                            <h4 class="text-xl">My Office Boss</h4>
+                            <p class="font-light">2hr : 38mins</p>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] font-semibold text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                        <div class="invisible group-hover:visible duration-300 col-span-1 space-y-2 justify-self-end">
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-2 rounded-full bg-[#4d4d4d] w-min">
+                                <div class="p-2 rounded-full bg-white w-min">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#e50913] h-4 w-4"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOP MOVIES -->
+    <div class="mx-32 relative h-screen">
+        <div class="absolute top-0 -z-10">
+            <img src="../assets/Gc2.jpg" class="object-cover h-screen" alt="Top Movie">
+        </div>
+        <div class="p-10 grid gap-5 content-center h-screen text-white">
+            <h1 class="text-3xl">Top 10 movies</h1>
+
+            <div class="flex flex-col flex-nowrap gap-5 w-96">
+                <button class="border-l-8 text-left border-[#e50913]">
+                    <div class="relative">
+                        <div class="absolute top-0 -z-10">
+                            <img src="../assets/gc2.jpg" class="h-48 object-cover" alt="">
+                        </div>
+                        <div class="grid gap-4 h-48 content-center px-5 bg-gradient-to-r from-black">
+                            <h1 class="text-2xl">Ghost Couple</h1>
+                            <div>
+                                <span class="p-1 bg-[#6c757d]">GP</span>
+                                <span>3hr : 10mins</span>
+                            </div>
+                            <a href="#"
+                                class="py-2 px-9 flex flex-nowrap bg-[#e50913] text-white whitespace-nowrap w-min">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                </svg> -->
+                                PLAY NOW
+                            </a>
+                        </div>
+                    </div>
+                </button>
+                <button class="border-l-8 text-left border-black">
+                    <div class="relative">
+                        <div class="absolute top-0 -z-10">
+                            <img src="../assets/vking.jpg" class="h-48 object-cover" alt="">
+                        </div>
+                        <div class="grid gap-4 h-48 content-center px-5 bg-gradient-to-r from-black">
+                            <h1 class="text-2xl">Viking</h1>
+                            <div>
+                                <span class="p-1 bg-[#6c757d]">NC-17</span>
+                                <span>1hr : 45mins</span>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <button class="border-l-8 text-left border-black">
+                    <div class="relative">
+                        <div class="absolute top-0 -z-10">
+                            <img src="../assets/final-fantasy.jpg" class="h-48 object-cover" alt="">
+                        </div>
+                        <div class="grid gap-4 h-48 content-center px-5 bg-gradient-to-r from-black">
+                            <h1 class="text-2xl">The Great Emperor</h1>
+                            <div>
+                                <span class="p-1 bg-[#6c757d]">NC-17</span>
+                                <span>1hr : 45mins</span>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <button class="border-l-8 text-left border-black">
+                    <div class="relative">
+                        <div class="absolute top-0 -z-10">
+                            <img src="../assets/movies05.jpg" class="h-48 object-cover" alt="">
+                        </div>
+                        <div class="grid gap-4 h-48 content-center px-5 bg-gradient-to-r from-black">
+                            <h1 class="text-2xl">Jumbo Queen</h1>
+                            <div>
+                                <span class="p-1 bg-[#6c757d]">NC-17</span>
+                                <span>1hr : 45mins</span>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="flex justify-start gap-96 bg-[#191919] px-32 py-16 text-[#f2f2f2]">
+        <div class="space-y-4 w-1/2">
+            <div>
+                <ul class="flex space-x-8 text-lg">
+                    <li>
+                        <a href="#">Terms Of Use</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy-Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Watch List</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-[#d1d0ce]">
+                    © 2022 STREAMIT. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited. All rights reserved.</p>
+            </div>
+        </div>
+        <div>
+            <div class="space-y-4">
+                <h5>Follow Us :</h5>
+                <div>
+                    <ul class="flex space-x-4">
+                        <li class="p-2 rounded-full bg-[#252525]">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#d1d0ce] h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
+                                </svg>
+                            </span>
+                        </li>
+                        <li class="p-2 rounded-full bg-[#252525]">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#d1d0ce] h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
+                                </svg>
+                            </span>
+                        </li>
+                        <li class="p-2 rounded-full bg-[#252525]">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#d1d0ce] h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
+                                </svg>
+                            </span>
+                        </li>
+                        <li class="p-2 rounded-full bg-[#252525]">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#d1d0ce] h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
+                                </svg>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
